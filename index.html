@@ -3,14 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome</title>
+    <title>Get your discount</title>
     <style>
-        body { display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; font-family: sans-serif; background-color: #f4f4f9; }
-        .btn { padding: 20px 40px; font-size: 18px; color: white; background-color: #25D366; border-radius: 50px; text-decoration: none; font-weight: bold; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        body { 
+            display: flex; flex-direction: column; justify-content: center; align-items: center; 
+            height: 100vh; margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+            background-color: #f4f4f9; text-align: center; padding: 20px;
+        }
+        .text { margin-bottom: 30px; color: #333; font-size: 18px; line-height: 1.5; max-width: 300px; }
+        .btn { 
+            padding: 20px 40px; font-size: 18px; color: white; background-color: #25D366; 
+            border-radius: 50px; text-decoration: none; font-weight: bold; 
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: background 0.3s;
+        }
         .btn:hover { background-color: #128C7E; }
     </style>
 </head>
 <body>
-    <a href="https://wa.me/393271578040?text=I%20WANT%20A%20DISCOUNT" class="btn">Get your discount</a>
+    <div class="text">
+        Click the button and send the message "I WANT A DISCOUNT" via WhatsApp. We are already waiting for your message!
+    </div>
+    <a href="https://wa.me/393271578040?text=I%20WANT%20A%20DISCOUNT" class="btn">Send via WhatsApp</a>
 </body>
 </html>
